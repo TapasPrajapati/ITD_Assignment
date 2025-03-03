@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .app-header {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .app-header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  .app-header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .app-main {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .app-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
